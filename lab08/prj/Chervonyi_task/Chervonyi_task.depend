@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1677146931 source:d:\users\computer\desktop\cntuu\bmtp\git\chervonyi-yehor-kn22\lab08\prj\chervonyi_task\main.cpp
+	<iostream>
+	<windows.h>
+	"ModulesChervonyi.h"
+
