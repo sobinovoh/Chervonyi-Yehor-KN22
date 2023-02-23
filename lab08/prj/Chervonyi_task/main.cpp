@@ -1,11 +1,11 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <windows.h>
 #include "ModulesChervonyi.h"
 
 using namespace std;
 
 string developer(){
-    string anotation = "Червоний Єгор ©";
+    string anotation = "Р§РµСЂРІРѕРЅРёР№ Р„РіРѕСЂ В©";
     return anotation;
 }
 int logical_expression(char a, char b){
@@ -18,11 +18,11 @@ int logical_expression(char a, char b){
 }
 
 string x_y_z_dec_hex_s(float x, float y, float z){
-    cout << "Десяткова система числення" << endl
+    cout << "Р”РµСЃСЏС‚РєРѕРІР° СЃРёСЃС‚РµРјР° С‡РёСЃР»РµРЅРЅСЏ" << endl
     << "x: " << x << endl
     << "y: " << y << endl
     << "z: " << z << endl;
-    cout << "Шістнадцяткова система числення" << endl
+    cout << "РЁС–СЃС‚РЅР°РґС†СЏС‚РєРѕРІР° СЃРёСЃС‚РµРјР° С‡РёСЃР»РµРЅРЅСЏ" << endl
     << "x: " << hex << (int)x << endl
     << "y: " << hex << (int)y << endl
     << "z: " << hex << (int)z << endl;
@@ -30,7 +30,7 @@ string x_y_z_dec_hex_s(float x, float y, float z){
         cout << "S= " << s_calculation(x, y, z) <<endl;
     }
     else{
-        cout << "Значення х має бути більше значення у" << endl;
+        cout << "Р—РЅР°С‡РµРЅРЅСЏ С… РјР°С” Р±СѓС‚Рё Р±С–Р»СЊС€Рµ Р·РЅР°С‡РµРЅРЅСЏ Сѓ" << endl;
     }
     return "";
 }
@@ -41,15 +41,15 @@ int main()
     SetConsoleOutputCP(1251);
     float x, y, z;
     char a, b;
-    cout << "Введіть значення x: ";
+    cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ x: ";
     cin >> x;
-    cout << "Введіть значення y: ";
+    cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ y: ";
     cin >> y;
-    cout << "Введіть значення z: ";
+    cout << "Р’РІРµРґС–С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ z: ";
     cin >> z;
-    cout << "Введіть символ a: ";
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР» a: ";
     cin >> a;
-    cout << "Введіть символ b: ";
+    cout << "Р’РІРµРґС–С‚СЊ СЃРёРјРІРѕР» b: ";
     cin >> b;
     cout << developer() << endl;
     cout << logical_expression(a, b) << endl;

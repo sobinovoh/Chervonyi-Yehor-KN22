@@ -1,4 +1,4 @@
-#include <iostream>
+﻿#include <iostream>
 #include <math.h>
 #define _USE_MATH_DEFINES
 using namespace std;
