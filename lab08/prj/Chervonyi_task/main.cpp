@@ -54,6 +54,6 @@ int main()
     cout << developer() << endl;
     cout << logical_expression(a, b) << endl;
     cout << x_y_z_dec_hex_s(x, y, z) << endl;
-
+    system("pause");
     return 0;
 }
